@@ -1,5 +1,5 @@
 import 'package:chatty_design/pages/homepage.dart';
-import 'package:chatty_design/pages/messagepage.dart';
+// import 'package:chatty_design/pages/messagepage.dart';
 import 'package:flutter/material.dart';
 
 void main() => runApp(const MyApp());
@@ -12,8 +12,8 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: ThemeData(fontFamily: 'Poppins'),
-      // home: const HomePage(),
-      home: const MessagePage(),
+      home: const HomePage(),
+      // home: const MessagePage(),
     );
   }
 }
