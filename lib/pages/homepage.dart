@@ -2,8 +2,8 @@ import 'package:chatty_design/theme.dart';
 import 'package:chatty_design/widgets/chat_tile.dart';
 import 'package:flutter/material.dart';
 
-class MessagePage extends StatelessWidget {
-  const MessagePage({Key? key}) : super(key: key);
+class HomePage extends StatelessWidget {
+  const HomePage({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
